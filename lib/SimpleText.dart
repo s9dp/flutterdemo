@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 //Simple Text print in screen.
 class SimpleText extends StatelessWidget {
 
+  //This is Widget
   Widget _simpleTextWidgets() {
 
     return Container(
