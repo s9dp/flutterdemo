@@ -8,7 +8,10 @@ class SimpleText extends StatelessWidget {
 
     return Container(
       child: Center(
-        child: Text("Hello Flutter Demo"),
+        child: Text("Hello Flutter Demo", style: TextStyle(
+          fontSize: 16,
+          color: Colors.redAccent
+        ),),
       ),
     );
 
