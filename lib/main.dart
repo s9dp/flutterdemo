@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'SimpleText.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+<<<<<<< Updated upstream
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -115,3 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+=======
+
+
+>>>>>>> Stashed changes
