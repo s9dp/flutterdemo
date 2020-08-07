@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demo/containerview.dart';
 
 class CustomAppBar extends StatefulWidget {
   @override
@@ -71,6 +72,7 @@ class _CustomAppBarState extends State<CustomAppBar> with SingleTickerProviderSt
           ],
         ),
       ),
+      body: ContainerView(),
     );
   }
 }
